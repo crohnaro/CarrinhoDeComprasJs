@@ -6,7 +6,6 @@ Seja muito a bem vindo a momentos de talvez dor e sofrimento ( ou não, rs ) Est
 
 Antes de começar, você precisará ter o seguinte instalado em seu computador:
 
-- [Node.js](https://nodejs.org/) (versão 14 ou superior)
 - [Git](https://git-scm.com/)
 
 ## Passos para Configuração
