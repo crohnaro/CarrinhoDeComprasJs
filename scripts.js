@@ -1,5 +1,10 @@
-/* Você precisará implementar no carrinho de compras a soma do total dentro da função abaixo ja criada.*/
-
 document.addEventListener('DOMContentLoaded', function () {
-    
+    const items = document.querySelectorAll('.item');
+    let total = 0;
+    items.forEach(item => {
+        const price = parseFloat(item.dataset.price);
+        total += price;
+    });
+    const totalPriceElement = document.getElementById('total-price');
+    totalPriceElement.textContent = total.toFixed(2); // Formata para 2 casas decimais
 });
