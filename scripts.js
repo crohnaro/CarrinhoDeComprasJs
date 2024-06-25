@@ -6,5 +6,5 @@ document.addEventListener('DOMContentLoaded', function () {
         total += price;
     });
     const totalPriceElement = document.getElementById('total-price');
-    totalPriceElement.textContent = total.toFixed(2); // Formata para 2 casas decimais
+    totalPriceElement.textContent = total.toFixed(2);
 });
