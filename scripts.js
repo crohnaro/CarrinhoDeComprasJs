@@ -1,5 +1,14 @@
-/* Você precisará implementar no carrinho de compras a soma do total dentro da função abaixo ja criada.*/
-
 document.addEventListener('DOMContentLoaded', function () {
-    
+
+    var items = document.querySelectorAll('.item')
+    var total = 0;
+
+    items.forEach(function(item) {
+        var price = parseFloat(item.getAttribute('data-price'));
+        total += price
+    });
+
+    var totalPriceElement = document.getElementById('total-price');
+    totalPriceElement.textContent = total.toFixed(2)
 });
+
